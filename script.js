@@ -62,9 +62,12 @@ tl.from(".nav",{
     ease:"linear",
 })
 
-tl.from(".hero-txt h1, .hero-txt p ",{
+tl.from(".hero-txt h1, .hero-txt p",{
     y:150,
     stagger: 0.25,
+})
+tl.from(".texts a",{
+    opacity:0
 })
 
 tl.from("#svg1",{

@@ -183,7 +183,7 @@ html , body{
     left: 85%;
 }
 .texts>a{
-    opacity: 0;
+    display: none;
 }
 .hero-txt{
     width: fit-content;
@@ -717,7 +717,7 @@ body::-webkit-scrollbar{
         margin-bottom:5vh;
     }
     .texts>a{
-        opacity: 1;
+        display: initial;
         font-size: 4vw;
         text-transform: capitalize;
         text-decoration: none;
